@@ -15,3 +15,7 @@ const navabar = ({title, links}) => {
     console.log(links) // ["Home", "About", "Contact"]
 }
 console.log(navabar)
+({    title: "My Website",
+    links: ["Home", "About", "Contact"]
+})  
+
