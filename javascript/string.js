@@ -18,3 +18,18 @@ console.log(name.replace("ved", "vid")) // vidika
 console.log(name[0]) // v
 console.log(name.charAt(0)) // v
 console.log(name.split("")) // [ 'v', 'e', 'd', 'i', 'k', 'a' ]
+
+const message = "   Hello World!   "
+console.log(message.trim()) // Hello World!
+console.log(message.trimStart()) // Hello World!   
+console.log(message.trimEnd()) //    Hello World!
+
+const multilineString = `This is a multiline
+string in JavaScript.`
+console.log(multilineString)
+// This is a multiline
+// string in JavaScript.
+const url = "https://www.example.com"
+console.log(url.startsWith("https")) // true
+console.log(url.endsWith(".com")) // true
+console
