@@ -14,3 +14,4 @@ console.log(myDate.getDay());
 const myBirthday = new Date("2000-01-01");
 console.log(myBirthday.toDateString());
 console.log(myBirthday.toLocaleString());
+console.log(myBirthday.toLocaleString('default,en-US', { month: 'long' }));
