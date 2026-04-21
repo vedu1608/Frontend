@@ -36,3 +36,8 @@ Jsuser.greeting() // Hello js user vedika  this is your age 20 years old.
 console.log(Object.keys(Jsuser)) // [ 'name', 'age', 'birthdate', 'email', 'hobbies', 'address', 'greeting' ]
 console.log(Object.values(Jsuser)) // [ 'vedika', 20, '01-01-2004', 'vedika.updated@example.com', [ 'coding', 'reading', 'traveling' ], { street: '123 Main St', city: 'NASHIK', state: 'MAHARASHTRA', zip: '12345' }, [Function: greeting ] ]
 console.log(Object.entries(Jsuser)) // [ [ 'name', 'vedika' ], [ 'age', 20 ], [ 'birthdate', '01-01-2004' ], [ 'email', 'vedika.updated@example.com' ], [ 'hobbies', [ 'coding', 'reading', 'traveling' ] ], [ 'address', { street: '123 Main St', city: 'NASHIK', state: 'MAHARASHTRA', zip: '12345' } ], [ 'greeting', [Function: greeting ] ] ]
+
+const newUser = Object.assign({}, Jsuser, { name: "new user", age: 25 })
+console.log(newUser) // { name: 'new user', age: 25, birthdate: '01-01-2004', email: '
+
+
