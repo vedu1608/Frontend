@@ -8,3 +8,8 @@ function loginuserMessage(username)
 }
 console.log(loginuserMessage());
 
+function CalculateCartPrice(...cartItems) {
+    return cartItems
+
+
+}console.log(10,20,30)
