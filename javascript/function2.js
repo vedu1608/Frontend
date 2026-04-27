@@ -30,3 +30,13 @@ function handleUserData(anyobject)
 (handleUserData(user))
 
 
+
+const thiskey ={
+    name :"vedika",
+    username:function(){
+        console.log(this.name);
+    }
+};
+thiskey.username();
+
+
